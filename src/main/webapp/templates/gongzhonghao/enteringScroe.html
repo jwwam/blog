@@ -1,0 +1,63 @@
+<link href="../css/gain.css" rel="stylesheet"/>
+<h4 class="title">新增企业积分</h4>
+<div style="min-height: 310px">
+	<div>
+	<button type="button" id="add-button" class="btn btn-default">新增企业积分</button>
+	<div class="input-group col-md-3" style="margin-top:0px positon:relative;float: right;">  
+           <input type="text" class="form-control input-title" placeholder="请输入查询标题名称" />  
+                <span class="input-group-btn">  
+                   <button class="btn btn-info btn-search">查找</button>   
+                </span>  
+    </div>  
+	<table id="datatable"  class="datatable" cellspacing="0" width="100%">
+		<thead>
+            <tr>
+            	<th>序号</th>
+                <th>企业账号</th>
+                <th>其他分数</th>
+                <th>时间</th>
+                <th>操作</th>
+            </tr>
+        </thead>
+	</table>
+	</div>
+</div>
+
+<!-- 新增企业积分dialog -->
+<div id="add-dialog" style="display: none">
+    <form class="bs-example bs-example-form" role="form">
+        <div class="input-group">
+            <span class="input-group-addon">企业账号</span>
+            <input type="text" class="form-control customerId" name="customerId" placeholder="企业账号">
+        </div>
+        <br/>
+        <div class="input-group">
+            <span class="input-group-addon">其他分数</span>
+            <input type="number" class="form-control otherScore" name="otherScore" placeholder="其他分数">
+        </div>
+    </form>
+</div> 
+
+
+<!-- 内容编辑dialog -->
+<div id="edit-dialog" style="display: none">
+    <form class="bs-example bs-example-form" role="form">
+        <div class="input-group">
+            <span class="input-group-addon">统一社会信用代码</span>
+            <input type="text" class="form-control customerId" disabled="disabled" name="customerId" placeholder="企业账号">
+        </div>
+        <br/>
+        <div class="input-group">
+            <span class="input-group-addon">其他分数</span>
+            <input type="number" class="form-control otherScore" name="otherScore" placeholder="其他分数">
+        </div>
+    </form>
+</div> 
+
+
+
+<!-- 加载栏目，发布内容 -->
+<div id="publish-button-dialog" style="display: none">
+	
+</div>
+

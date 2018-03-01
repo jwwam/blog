@@ -1,0 +1,105 @@
+﻿body {
+	font-size: 12px;
+	font-family: 'Helvetica', 'Hiragino Sans GB W3', 'Microsoft YaHei',
+		'微软雅黑', 'SimSun', '宋体', 'Arial', 'sans-serif';
+		
+}
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.main {
+	width: 100%;
+	height: auto;
+	background: white;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.content {
+	border: 1px solid #bbb;
+	margin: 20px;
+	background: -webkit-linear-gradient(top, #fdf7f6, #fff); /*线性渐变*/
+	box-shadow: 2px 2px 4px #bbb; /*阴影效果*/
+/* 	min-height: 700px; */
+	
+}
+.main .title{
+	height: 35px;
+	font-size: 18px;
+	padding:8px;
+	margin-left: 10px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	
+}
+#table-data .aSelected{
+	font-weight: bold;
+	color: #353131;
+	/* text-decoration: underline; */
+}
+#table-data a{
+	color: blue;
+}
+.table-span,.tree-span{
+	font-size: 16px;
+	background:#e0dad9;
+	font-weight: bold;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	
+}
+
+.content  td {
+	/* border: 1px solid #ccc; */
+	text-align: left;
+}
+.content .tree{
+	height: 300px;
+	overflow-x: scroll;
+}
+.content .table-div{
+	min-height: 500px;
+	cursor: pointer;
+}
+.table-td{
+	border-right:#ccc solid 1px;
+} 
+
+.main .btn-group{
+	margin-right: 25px;
+	float: right;
+	height: 50px;
+	padding: 8px;
+}
+.content .image {
+	width: 100%;	
+}
+#loadImg div,#loadImg-image div{
+	font-size: 18px;
+	color: red;
+	text-align: center;
+	margin-top: 50px;
+}
+.content .failMsg,.content .errorMsg{
+	color: red;
+	font-size: 16px;
+	text-align: center;
+}
+#image-div img{
+	min-height:500px;
+	height:750px;
+	min-width:400px;
+	text-align: center;
+	width:95%;
+	border: #ccc solid 1px;
+	margin-left: 10px;
+}
+#scroll-bars-dialog .scroll-bars-dialog-title{
+	font-size: 16px;
+	margin: 20px auto;
+}
+
+

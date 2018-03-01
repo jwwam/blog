@@ -1,0 +1,223 @@
+﻿/*************公共css********************************/
+body {
+	font-size: 12px;
+	font-family: 'Helvetica', 'Hiragino Sans GB W3', 'Microsoft YaHei',
+		'微软雅黑', 'SimSun', '宋体', 'Arial', 'sans-serif';
+		
+}
+.main {
+	width: 1000px;
+	height: auto;
+	background: white;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.content, .declaration {
+	/* border: 1px solid #bbb;
+	margin: 20px;
+	background: -webkit-linear-gradient(top, #fdf7f6, #fff); 线性渐变
+	box-shadow: 2px 2px 4px #bbb; 阴影效果 */
+	margin:0px auto;
+	width:30%;
+	text-align: center;
+}
+.main .title{
+	height: 35px;
+	font-size: 18px;
+	margin-left: 20px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	padding: 5px;
+	background:url("../images/icb/icon_line.png") no-repeat;
+	
+}
+.failMsg,.errorMsg{
+	color: #e85353 !important;
+	font-size: 16px;
+	text-align: center;
+}
+
+.content .content-image{
+	margin-top: 30px;
+}
+.content .content-title{
+	margin-top: 20px;
+	font-size: 24px;
+	margin-left:10px;
+	color: rgb(75, 119, 222);
+}
+.content .content-error{
+	margin-top: 20px;
+	font-size: 24px;
+	margin-left:10px;
+	color: #e85353;
+}
+
+
+.content .content-dec{
+	margin-top: 15px;
+	margin-left:10px;
+	font-size: 16px;
+}
+
+.content .content-dec input{
+	width: 250px;
+	height: 50px;
+	font-size: 18px;
+	color:  rgb(76, 178, 195);
+	background: none;
+    border: rgb(75, 119, 222) 1px solid;
+    border-radius:5px;
+}
+/**************公共css*******************************/
+
+
+/**************record.html css*******************************/
+.content-upload {
+	/* border: 1px solid #bbb;
+	margin: 20px;
+	background: -webkit-linear-gradient(top, #fdf7f6, #fff); 线性渐变
+	box-shadow: 2px 2px 4px #bbb; 阴影效果 */
+	margin:0px auto;
+	width:90%;
+	margin-top:30px
+}
+.content-submit{
+	margin-left: 40px;
+	margin-top: 30px;
+}
+.content-submit input{
+	width: 120px;
+	height: 50px;
+	font-size: 18px;
+	color:  #fff;
+	background: rgb(75, 119, 222);
+    border-radius:5px;
+}
+.content-submit input:HOVER{
+	width: 120px;
+	height: 50px;
+	font-size: 18px;
+	color:  #fff;
+	background:rgb(75, 119, 222);
+    border-radius:5px;
+}
+
+.content-right{
+    margin-left: 20px;
+}
+.content-left{
+	margin-top: 30px;
+}
+
+.content-left table {
+	line-height: 50px;
+	font-size: 16px;
+	margin-left: 30px;
+}
+.content-left table tr{
+	padding: 10px;
+}
+.content-left:hover {
+    border-color: #78C3F3;
+    color: #004974;
+    text-decoration: none;
+}
+
+.content-iphone div{
+	line-height: 50px;
+	margin-left: 20px;
+	font-size: 16px;
+}
+
+
+.content-iphone span{
+	font-size: 16px;
+	color: #ccc;
+}
+.content-form{
+	margin-left:100px;
+}
+/*********************************************/
+
+
+
+/**************declaration.html*******************************/
+.declaration {
+	/* border: 1px solid #bbb;
+	margin: 20px;
+	background: -webkit-linear-gradient(top, #fdf7f6, #fff); 线性渐变
+	box-shadow: 2px 2px 4px #bbb; 阴影效果 */
+	margin:0px auto;
+	width:60%;
+}
+
+.declaration {
+
+	margin:0px auto;
+	width:80%;
+}
+
+.declaration-content{
+	font-size:16px;
+	border: #ccc solid 1px;
+	margin-bottom: 20px;
+	line-height: 25px;
+	padding: 30px;
+}
+
+.declaration-content div{
+	
+	text-align: left;
+}
+
+
+.declaration-button .agree{
+	width: 160px;
+	height: 40px;
+	font-size: 16px;
+	color:  #fff;
+	background: rgb(75, 119, 222);
+    border-radius:5px;
+}
+
+.declaration-button .noAgree{
+	width: 80px;
+	height: 40px;
+	font-size: 16px;
+	color:  #fff;
+	background: rgb(75, 119, 222);
+    border-radius:5px;
+}
+
+
+.content-iphone div{
+	line-height: 50px;
+	margin-left: 20px;
+	font-size: 16px;
+}
+
+/*********************************************/
+
+
+
+
+
+/**************recordTemp.html*******************************/
+
+.content-form table{
+	margin-left: 20px;
+	font-size: 16px;
+	line-height: 50px;
+}
+.content-form .cue{
+	font-size: 14px;
+	color: red;
+}
+
+
+
+
+

@@ -1,0 +1,48 @@
+#datatable_wrapper{
+	margin: 15px;
+}
+
+#datatable_wrapper tbody tr{
+	
+	border: #cecfd4 solid 1px;
+	line-height: 2;
+}
+#datatable_wrapper tbody td{
+	
+	border-right: #cecfd4 solid 1px;
+}
+
+#datatable_wrapper table{
+	margin-top:15px;
+}
+#datatable_wrapper thead th{
+	border-right: #cecfd4 solid 1px;
+}
+#datatable_wrapper thead tr{
+	border: #cecfd4 solid 1px;
+	line-height: 2;
+}
+#datatable_filter label{
+	
+	float: right;
+}
+
+#datatable_filter label input{
+	
+	width:350px;
+	margin-bottom: 10px;
+}
+
+#datatable_paginate{
+	float: right;
+}
+#datatable_length{
+	float: left;
+	margin-top: 20px;
+}
+
+#side-menu .selected{
+	
+	color: orange;
+	font-weight: bold;
+}

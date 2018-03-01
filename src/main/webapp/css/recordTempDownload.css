@@ -1,0 +1,104 @@
+﻿/*************公共css********************************/
+body {
+	font-size: 11px;
+	font-family: 'Helvetica', 'Hiragino Sans GB W3', 'Microsoft YaHei',
+		'微软雅黑', 'SimSun', '宋体', 'Arial', 'sans-serif';
+		
+}
+.main {
+
+	background: white;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+}
+.main .title{
+	height: 35px;
+	font-size: 18px;
+	margin-left: 20px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	padding: 5px;
+	background:url("../images/icb/icon_line.png") no-repeat;
+	
+}
+.content {
+	margin:0px auto;
+	width:100%;
+	margin-top:30px;
+	width: 794px; 
+	height: 1023px;
+}
+
+.content table{
+	margin-left: 60px;
+	font-size: 15px;
+	line-height: 45px;
+}
+.content-h{
+	font-size: 26px;
+	text-align:center; 
+	font-weight:bold;
+	margin-bottom: 60px;
+	margin-top: 45px;
+}
+.content-h span{
+	color: red;
+}
+.content .underline{
+	width:450px;
+	border-bottom: #000 solid 1px;
+	font-size: 16px;
+}
+.content .head{
+	width: 33%;
+}
+.content .sgin{
+	text-align: right;
+	margin-right: 80px;
+	margin-top: 35px;
+}
+
+.content .sgin span{
+	color: red;
+}
+
+.content .seal{
+	margin-top: 35px;
+	text-align: right;
+	margin-right: 120px;
+}
+.content .date {
+	margin-top: 15px;
+	text-align: right;
+	margin-right: 100px;
+}
+
+.content .remark-content{
+	text-align: center;
+	margin-top: 100px;
+}
+.content .valid-date span{
+	border-bottom: solid 1px #000;
+}
+.content-submit{
+	margin-left: 60px;
+	margin-top: 30px;	
+}
+.content-submit input{
+	width: 80px;
+	height: 40px;
+	font-size: 16px;
+	color:  #fff;
+	background: rgb(75, 119, 222);
+    border-radius:5px;
+}
+.content-submit input:HOVER{
+	width: 80px;
+	height: 40px;
+	font-size: 16px;
+	color:  #fff;
+	background:rgb(75, 119, 222);
+    border-radius:5px;
+}
