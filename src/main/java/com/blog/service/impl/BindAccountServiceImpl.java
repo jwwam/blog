@@ -30,7 +30,6 @@ import cn.hengqin.utils.TimeUtil;
 /**
  * Created by ppm on 2017/7/21.
  */
-@Service("bindAccountService")
 @Transactional
 @Component
 @EnableScheduling

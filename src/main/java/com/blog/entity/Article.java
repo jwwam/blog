@@ -31,7 +31,7 @@ public class Article extends BaseEntity{
 
     //阅读次数
     @Column(name= "ydcs")
-    private Long ydcs;
+    private String ydcs;
 
     //是否评论
     @Column(name= "sfpl")
@@ -39,15 +39,15 @@ public class Article extends BaseEntity{
 
     //点赞次数
     @Column(name= "dzcs")
-    private Long dzcs;
+    private String dzcs;
 
     //点踩次数
     @Column(name= "dccs")
-    private Long dccs;
+    private String dccs;
 
     //发布人员
     @Column(name= "fbry")
-    private Long fbry;
+    private String fbry;
 
     //发布时间
     @Column(name= "fbsj")
@@ -59,7 +59,7 @@ public class Article extends BaseEntity{
 
     //blogid
     @Column(name= "blogid")
-    private Long blogid;
+    private String blogid;
 
     //删除状态
     @Column(name= "delflag")
@@ -124,11 +124,11 @@ public class Article extends BaseEntity{
         this.zt = zt;
     }
 
-    public Long getYdcs() {
+    public String getYdcs() {
         return ydcs;
     }
 
-    public void setYdcs(Long ydcs) {
+    public void setYdcs(String ydcs) {
         this.ydcs = ydcs;
     }
 
@@ -140,27 +140,27 @@ public class Article extends BaseEntity{
         this.sfpl = sfpl;
     }
 
-    public Long getDzcs() {
+    public String getDzcs() {
         return dzcs;
     }
 
-    public void setDzcs(Long dzcs) {
+    public void setDzcs(String dzcs) {
         this.dzcs = dzcs;
     }
 
-    public Long getDccs() {
+    public String getDccs() {
         return dccs;
     }
 
-    public void setDccs(Long dccs) {
+    public void setDccs(String dccs) {
         this.dccs = dccs;
     }
 
-    public Long getFbry() {
+    public String getFbry() {
         return fbry;
     }
 
-    public void setFbry(Long fbry) {
+    public void setFbry(String fbry) {
         this.fbry = fbry;
     }
 
@@ -180,11 +180,11 @@ public class Article extends BaseEntity{
         this.shzt = shzt;
     }
 
-    public Long getBlogid() {
+    public String getBlogid() {
         return blogid;
     }
 
-    public void setBlogid(Long blogid) {
+    public void setBlogid(String blogid) {
         this.blogid = blogid;
     }
 

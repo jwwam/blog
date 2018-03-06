@@ -6,7 +6,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
- * Created by ppm on 2017/7/13.
+ * Created by zyq on 2017/7/13.
  */
 @Controller
 @RequestMapping(value="/base")

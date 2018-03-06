@@ -101,6 +101,25 @@
         </div>-->
         
         <div id="templatemo_main">
+
+            <div class="post_section" th:each="article,articleStat : ${aList}">
+                <span class="comment">
+                    <a href="blog_post.html">256</a>
+                </span>
+                <h2>
+                    <a href="blog_post.html" th:text="${article.wzbt}"></a>
+                </h2>
+                <span th:text="${article.fbsj}"></span>
+                <strong>Author:</strong>
+                <span th:text="${article.fbry}"></span>
+                <strong>Category:</strong>
+                <a href="#">Web Design</a>
+                <img src="../../img/20180118001110.jpg" width="420px" height="250px" th:src="@{/img/20180118001110.jpg}"/>
+                <!--<img src="../../images/lover/templatemo_image_02.jpg" th:src="@{/images/lover/templatemo_image_02.jpg}" alt="image 2" />-->
+                <p th:text="${article.wznr}"></p>
+                <a href="blog_post.html">Continue reading...</a>
+            </div>
+
             <div class="post_section">
                 <span class="comment"><a href="blog_post.html">128</a></span>
                 <h2><a href="blog_post.html">Aliquam lorem ante dapibus</a></h2>
